@@ -1,0 +1,7 @@
+*.pyc
+.DS_Store
+__pycache__/
+scripts/env.local.sh
+work/
+.hook_fired
+*.egg-info/
