@@ -1,0 +1,18 @@
+# Orchard sandbox environment for SWE-bench Pro runs (needs SANDBOX_BASE_URL and SANDBOX_API_KEY).
+
+environment:
+  environment_class: orchard
+  cwd: "/app"
+  timeout: 600
+  login_shell: true
+  env:
+    PAGER: cat
+    MANPAGER: cat
+    LESS: -R
+    PIP_PROGRESS_BAR: 'off'
+    TQDM_DISABLE: '1'
+  block_network: false
+  sandbox_timeout: 10800
+  heartbeat_interval: 120
+  cpu: "4"
+  memory: "16Gi"

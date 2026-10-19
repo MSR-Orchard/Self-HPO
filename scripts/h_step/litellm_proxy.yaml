@@ -1,0 +1,10 @@
+model_list: []
+general_settings:
+  master_key: sk-local
+litellm_settings:
+  drop_params: true
+  num_retries: 2
+  request_timeout: 1200
+  callbacks: ["strip_thinking_hook.strip_thinking"]
+router_settings:
+  routing_strategy: simple-shuffle
