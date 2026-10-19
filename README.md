@@ -2,6 +2,8 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2610.22791-b31b1b.svg)](https://arxiv.org/abs/2610.22791)
 [![Hugging Face](https://img.shields.io/badge/🤗-Checkpoints-yellow)](https://huggingface.co/self-hpo)
+[![Blog](https://img.shields.io/badge/Blog-Self--HPO-blue)](https://weizhepei.com/blog/self-hpo/)
+[![X](https://img.shields.io/badge/-Thread-black?logo=x)](https://x.com/weizhepei/status/2112260175000461453)
 
 Self-HPO co-evolves the **harness** and the **policy** of an LLM coding agent. Each round alternates two steps:
 
